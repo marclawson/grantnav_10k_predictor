@@ -120,7 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-# .env
+.env
 .env/
 .venv/
 env/
@@ -171,5 +171,8 @@ Thumbs.db
 # Ignore all local history of files
 .history
 .ionide
+
+# data
+/data
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,visualstudiocode
